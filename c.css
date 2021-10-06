@@ -1,0 +1,55 @@
+.grid {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(180deg, green, white);
+    border: 10px solid;
+    border-radius: 10px;
+    position: absolute;
+    left: 450px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    box-sizing: border-box;
+}
+
+.rain {
+    background-color: orange;
+    border-radius: 10px;
+    border: solid;
+}
+
+.basket {
+    background-color: burlywood;
+    border: 0px dotted;
+    border-radius: 5px;
+}
+
+label {
+    color: orange;
+}
+
+body {
+    background: radial-gradient(white, green);
+    align-items: absolute;
+    position: relative;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+#score {
+    align-items: center;
+    color: orange;
+}
+
+#table {
+    font-weight: bolder;
+    color: rebeccapurple;
+    position: relative;
+}
